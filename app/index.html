@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="swimming">
+<head>
+	<title>Swimming wear Project Using AngularJs & HTML5</title>
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/angular.js"></script>
+	<script type="text/javascript" src="js/angular-route.js"></script>
+
+	<!-- main js to bootstrap app -->
+	<script type="text/javascript" src="angular/main.js"></script>
+
+	<!-- service -->
+	<script src="angular/services/utility.js"></script>
+
+	<!-- controller -->
+	<script type="text/javascript" src="angular/controller/products-menu-ctrl.js"></script>
+	<script type="text/javascript" src="angular/controller/home-ctrl.js"></script>
+
+	<!-- directive -->
+	<script type="text/javascript" src="angular/directive/products-menu.js"></script>
+
+	<!-- router -->
+	<script type="text/javascript" src="angular/router.js"></script>
+
+</head>
+<body>
+<ng-include src='"indexs/header.html"'></ng-include>
+
+<div class="container">
+	<div ng-view></div>
+</div>
+</body>
+</html>

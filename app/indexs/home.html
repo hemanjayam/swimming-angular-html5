@@ -1,0 +1,61 @@
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				
+					<div class="col-md-6">
+					<div class="home-top-left">
+						<h1>The Latest Collections</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#/" class="btn btn-primary">Shop Now</a>
+					</div>
+				</div>
+				
+					<div class="col-md-6 home-top-rights">
+					<div class="home-top-right">
+						<img src="images/p2.png" class="img-responsive" alt=""/>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="home-bottom">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="home-bottom-heading text-center">Featured Products</h1>
+				<div class="gallery-grids"  ng-repeat="list in Alllists track by $index">
+					<div class="col-sm-3">
+						<div class="gallery">
+							<a href="#/">
+								<img src="images/{{list.img}}" class="img-responsive" alt="" />
+								<div class="gallery-info">
+									<div class="quick">
+										<p><i class="fa fa-eye" aria-hidden="true"></i> view</p>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="galy-info">
+							<p>Amour Women’s Amour...</p>
+							<div class="galry">
+								<h2 class="item-prices">@95.00</h2>
+							</div>
+							<div class="rating">
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
