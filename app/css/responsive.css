@@ -1,0 +1,20 @@
+@media (max-width: 1280px){
+	.navbar{width: 80%; border: none;}
+	
+	
+	
+	.navbar-default .navbar-nav li{height: 35px; }
+
+	.search-box{width: 20%;}
+	.sb-search{right: 56px;}
+
+	.sb-search-input{width: 100%; display: inline-block; position: relative;}
+
+	/* footer css */
+	#footer{ padding: 0; margin-bottom: 50px; position: relative; display: block;}
+#footer .col-sm-2{float: left; display: block;position: relative;}
+	 #footer .col-sm-2 h2{ font-size: 1.1em; margin-bottom: 0.5em; text-transform: uppercase;}
+	#footer .col-sm-4{float: right; display: block; position: relative; margin-top: 10px; }
+
+
+}

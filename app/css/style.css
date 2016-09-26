@@ -29,16 +29,10 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
  .dropdown-menu ul li a.list{color: #262626; text-decoration: none; font-size: 15px; font-weight: 600;}
  .dropdown-menu ul li a.list1{color: #262626; text-decoration: none;}
 
- .search-box{width: 20%; float: right; margin-top: 3em; border: none; position:relative; display: inline-block;}
- .search-box .sb-search-input{ width: 86%; top: 0; height: 35px; float: left; position: absolute; display: block;}
- .search-box .sb-search-submit{width: 40px; height: 35px; background: #000; border: none; float: right; top: 0; right: 0;
- 	padding: 0; margin: 0; display: block; position: relative; cursor: pointer;}
- .search-box .fa-search{float: right; display: inline-block; width: 40px; font-size: 15px;
-  color: #fff; position: absolute; top: 10px; right: 0; text-align: center; cursor: pointer; }
 
   /* home css */
 
-  #home{padding-bottom: 50px;}
+  #home{padding-bottom: 50px; overflow: hidden;}
 
   .home-top-left{text-align: center; margin-top: 250px; float: left;}
   .home-top-left a{color: #000; background-color: transparent; text-transform: uppercase; font-size: 13px;
@@ -46,10 +40,12 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
   .home-top-left a:hover{background-color: #000; color: #fff; font-weight: 700; border: 2px solid #000; border-radius: 0;}
   .home-top-right{ float: left; margin-top: 50px;}
 /* home-bottom css */
+
+.home-bottom-heading{margin-bottom: 50px; font-size: 25px;}
   .gallery-grids{display: block;position: relative;}
   .col-sm-3{display: block; position: relative; padding-bottom: 30px; float: left;}
   .gallery{ position: relative; display: block;}
-  .col-sm-3 img{border: 1px solid #ccc;}
+  .col-sm-3 img{border: 1px solid #eee;}
   .col-sm-3 a{text-decoration: none; display: block;}
   .col-sm-3 img:hover{ border: 1px solid #999;}
   
@@ -65,151 +61,68 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
   	 .galy-info .rating{left: 0; top: 35px; position: absolute; display: block; }
   	 .galy-info .rating i.fa-star-o{cursor: pointer;font-size: 10px;}
   	 .galy-info .rating i.fa-star-o:hover{cursor: pointer; background-color: yellow;}
-  	 
+
+
+  	 /* header-formField css */
+
+  	 #footer-formField{background-color: #eee; width: 100%; border-top: 1px solid #CCC0C0; border-bottom: 1px solid #CCC0C0;
+  	 	padding: 1em 0em 2em 0em; margin: 2em 0 2em 0; overflow: hidden;}
+
+  	 	#footer-formField .col-sm-5{float: left;}
+  	 	#footer-formField .col-sm-5 .left h1{font-size: 1.5em; font-weight: 600; color: #000; text-align: center;}
+  	 	#footer-formField .col-sm-7{float: right;}
+  	 	#footer-formField .col-sm-7 .right{margin-top: 1em;}
+  	 	#footer-formField .col-sm-7 .right form input.email-field{width: 76%; padding: 7px 7px; float: left; }
+  	 	#footer-formField .col-sm-7 .right form input.submit-field{width: 20%;
+  	 	position: relative; background: transparent; border: 2px solid#000;
+  	 		color: #000; font-size: 15px; font-weight: 600; float: right; padding: 7px 7px;}
+  	 #footer-formField .col-sm-7 .right form input.submit-field:hover{background: #000; color: #fff; border: 2px solid#000;
+  	 	font-weight: 600; padding: 7px 7px;}
+
+      /* login style */
+
+      #login{display: block; position: relative; width: 100%; padding: 80px 0px; overflow: hidden;}
+      #login .container{padding-left: 0px; padding-right: 0px;}
+      #login .creat-new-acount h2{ text-transform: uppercase; font-size: 18px; font-weight: 600; }
+      #login .creat-new-acount p{color: #999;}
+      #login .creat-new-acount a{margin-top: 20px; text-transform: uppercase; border-radius: 0px; border: 2px solid#000;
+        background-color: transparent; font-weight: 590; padding: 8px 15px 8px 15px;}
+      #login .creat-new-acount a:hover{margin-top: 20px; text-transform: uppercase; border-radius: 0px; border: 2px solid#000;
+        background-color: #000; font-weight: 590; color: #fff; padding: 8px 15px 8px 15px;}
+
+      #login .login-customer h2{text-transform: uppercase; font-size: 18px; font-weight: 600;}
+      #login .login-customer p{color: #999;}
+      #login .login-customer form{margin-top: 40px;}
+      #login .login-customer form .username{display: inline-block; width: 100%; font-size: 11px; color: #999; margin-bottom: 10px;}
+      #login .login-customer form .user-name{width: 90%; padding: 3px 10px;
+      border: 1px solid#000; display: inline-block; position: relative; margin-bottom: 20px;}
+      #login .login-customer form a.forgt{color: #000; margin-top: 10px;}
+      #login .login-customer form a.forgt:hover{color: #ff0000;margin-top: 10px;}
+      #login .login-customer form span a{border: 2px solid#000; background: transparent; border-radius: 0; padding: 10px 15px;
+        text-transform: uppercase; font-weight: 500;margin-top: 10px;}
+      #login .login-customer form span a:hover{border: 2px solid#000; background: #000; border-radius: 0; padding: 10px 15px;
+        text-transform: uppercase; font-weight: 500; color: #fff;margin-top: 10px;}
+
+  	 	/* footer css */
+  	 	#footer{padding: 1em 0;}
+#footer .col-sm-2 h2{ font-size: 1.1em; margin-bottom: 0.5em; text-transform: uppercase;}
+#footer .col-sm-2 ul{list-style: none; padding: 0; font-size: 0.9em;}
+#footer .col-sm-2 ul li a{color: #B7B4B4; line-height: 2em; text-decoration: none;}
+#footer .col-sm-2 ul li a:hover{color: #000;}
+
+#footer .col-sm-4 ul{list-style: none; display: inline-block; padding: 0;}
+#footer .col-sm-4 ul li{float: left; display: block;}
+#footer .col-sm-4 ul li a{font-size: 1.5em; color: #000; margin-right: 0.8em; font-weight: 700;}
+#footer .col-sm-4 ul li a:hover{font-size: 1.5em; color: #B7B4B4; margin-right: 0.8em; font-weight: 700;}
+#footer .col-sm-4 p{color: #B7B4B4; line-height: 2em; font-size: 0.9em;}
+#footer .col-sm-4 p a{color: #B7B4B4; line-height: 2em; font-size: 1em;}
 
 
 
 
-@media (max-width: 1280px){
-	.navbar{width: 80%; border: none;}
-	
-	
-	
-	.navbar-default .navbar-nav li{height: 35px; }
-
-	.search-box{width: 20%;}
-	.sb-search{right: 56px;}
-
-	.sb-search-input{width: 100%; display: inline-block; position: relative;}
-
-
-}
-
-@media (max-width: 1080px){
-	.navbar{width: 80%; border: none;}
-	 
-	
-	.navbar-brand{ float: left;}
-	
-	.navbar-default .navbar-nav li a{height: 35px; padding-left: 10px; padding-right: 10px; }
-	.dropdown-menu{width: 400px; top: 50px; }
-	.dropdown-menu ul{list-style: none; padding: 0px;}
-	.dropdown-menu ul li{margin: 5px 5px 5px 5px;}
-	.dropdown-menu ul li a.list{font-size: 13px;}
-	.dropdown-menu ul li a.list1{font-size: 11px;}
-
-	#home .col-md-6{float: left; width: 50%; display: block;}
-	.home-top-left{top: -100px; position: absolute;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-	
-	.search-box{width: 20%;}
-	.sb-search{right: 35px;}
-
-	.sb-search-input{width: 100%; display: inline-block; position: relative; }
-
-	.galy-info{display: block;position: relative;}
-  	 .galy-info p{display: inline-block; font-size: 15px; font-weight: 600; margin-top: 5px;}
-  	 .galy-info h2{color: #ccc; font-size: 20px; display: block; right: 0; top: 15px; position: absolute;}
-  	 .galy-info .rating{left: 0; top: 35px; position: absolute; display: block; }
-  	 .galy-info .rating i.fa-star-o{cursor: pointer;font-size: 10px;}
-  	 .galy-info .rating i.fa-star-o:hover{cursor: pointer; background-color: yellow;}	
-
-	#home-bottom{ width: 100%; position: relative;
-	 display: block; left: 0; right: -20px; padding: 0; margin: 0; bottom: 40px;}
-	 .gallery-grids .col-sm-3{width: 25%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	#home-bottom .col-sm-3 .galy-info p{ top: -20px;font-size: 15px; position: relative;}
-
-}
-
-@media(max-width: 991px){
-	body{overflow: scroll;}
-	.navbar{width: 90%;  }
-	.navbar-default .navbar-header{ width: 26%;  }
-	h1.navbar-brand{font-size: 2em; }
-	
-	.navbar-default .navbar-nav li a{height: 35px; padding-left: 9px; padding-right: 9px;}
-
-
- 		.dropdown-menu{border: none; width: 400px; left: -70px; }
- 		.dropdown-menu ul{padding: 0; margin: 0;}
- 		.dropdown-menu ul li{margin: 0; padding-top: 5px; padding-bottom: 5px;}
- 		.dropdown-menu ul li a.list{font-size: 13px;}
-		.dropdown-menu ul li a.list1{font-size: 12px;}
-
-	.search-box{width: 10%; position: relative; display: inline-block;}
-	.sb-search-input{width: 0%; display:block; position: absolute;}
-
-	#home .col-md-6{float: left; width: 50%; display: block;}
-	.home-top-left{top: -100px; position: absolute;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-
-
-	#home-bottom{ width: 100%;  position: relative;
-	 display: block; left: 0; right: -20px; padding: 0; margin: 0; bottom: 40px;}
-	 .gallery-grids .col-sm-3{width: 25%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	#home-bottom .col-sm-3 .galy-info p{ top: -20px;font-size: 12px; position: relative;}
-
-}
-
-@media(max-width: 640px){
-	.navbar{width: 90%; position: relative; display: inline-block;}
-	.navbar-default .navbar-header{float: left; width: 100%; border: none; }
-	
-	.navbar-brand a{font-size: 30px;}
-	.navbar-default .navbar-nav{}
-
-
-	.search-box{width: 10%;}
-	.sb-search-input{width: 0%; display: inline-block; position: absolute; }
-
-	#home .col-md-6{float: left; width: 50%; display: block;}
-	.home-top-left{top: -100px; position: relative;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-
-	#home-bottom{ top: -100px; width: 100%; position: relative;
-	 display: block; left: 0; right: -20px; padding: 0; margin: 0;}
-	 .gallery-grids .col-sm-3{width: 50%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	#home-bottom .col-sm-3 .galy-info p{ top: -20px; position: relative;}
-}
-
-@media(max-width: 480px){
-	.navbar{width: 90%;  }
-	.navbar-default .navbar-header{float: left; width: 100%; border: none; }
-	
-	
-	
-	.search-box{width: 10%;}
-	.sb-search-input{width: 83%; display: inline-block; position: relative; }
-
-
-	#home .col-md-6{float: left; width: 100%; display: inline-block; padding: 0; margin: 0;}
-	.home-top-left{top: -200px; position: relative; margin-bottom: 0px; padding-bottom: 0px;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-	.home-top-left a{padding: 10px 30px 10px 30px; }
-
-	.home-top-rights{top: -220px; width: 100%; position: relative; margin-top: 0px; padding-top: 0px;
-	 display: inline-block;}
-	.home-top-right img{width: 250px; margin-left: 50px; }
-
-	#home-bottom{top: -250px; width: 100%; position: relative;
-	 display: inline-block; left: 0; right: -20px; padding: 0; margin: 0;}
-
-	 #home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	
-	.gallery-grids .col-sm-3{width: 50%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom .col-sm-3 .galy-info p{font-size: 12px; top: -20px; position: relative;}
 
 
 
-}
+
+
+

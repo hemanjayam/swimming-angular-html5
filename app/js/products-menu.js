@@ -5,7 +5,7 @@
 			scope: {
 				productmenu: '='
 			},
-			templateUrl: 'indexs/products-menu.html',
+			templateUrl: 'products-menu.html',
 			controller: 'productsMenuCtrl',
 			link: function(scope){
 				console.log('productMenu directive');

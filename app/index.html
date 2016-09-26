@@ -3,36 +3,43 @@
 <head>
 	<title>Swimming wear Project Using AngularJs & HTML5</title>
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/mini-browser-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/tab-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile-responsive.css">
 
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/angular.js"></script>
-	<script type="text/javascript" src="js/angular-route.js"></script>
+	<script type="text/javascript" src="lib/jquery.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.min.js"></script>
+	<script type="text/javascript" src="lib/angular.js"></script>
+	<script type="text/javascript" src="lib/angular-route.js"></script>
 
 	<!-- main js to bootstrap app -->
-	<script type="text/javascript" src="angular/main.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 	<!-- service -->
-	<script src="angular/services/utility.js"></script>
+	<script src="services/utility.js"></script>
 
 	<!-- controller -->
-	<script type="text/javascript" src="angular/controller/products-menu-ctrl.js"></script>
-	<script type="text/javascript" src="angular/controller/home-ctrl.js"></script>
+	<script type="text/javascript" src="js/products-menu-ctrl.js"></script>
+	<script type="text/javascript" src="js/home-ctrl.js"></script>
+	<script type="text/javascript" src="js/login-ctrl.js"></script>
 
 	<!-- directive -->
-	<script type="text/javascript" src="angular/directive/products-menu.js"></script>
+	<script type="text/javascript" src="js/products-menu.js"></script>
 
 	<!-- router -->
-	<script type="text/javascript" src="angular/router.js"></script>
+	<script type="text/javascript" src="js/router.js"></script>
 
 </head>
 <body>
-<ng-include src='"indexs/header.html"'></ng-include>
+<ng-include src='"header.html"'></ng-include>
 
-<div class="container">
+<div class="container-fuild">
 	<div ng-view></div>
 </div>
+
+<ng-include src='"footer.html"'></ng-include>
 </body>
 </html>
