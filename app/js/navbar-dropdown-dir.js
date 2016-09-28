@@ -5,10 +5,10 @@
 			scope: {
 				productmenu: '='
 			},
-			templateUrl: 'products-menu.html',
-			controller: 'productsMenuCtrl',
+			templateUrl: 'navbar-dropdown.html',
+			controller: 'navbarDropdownCtrl',
 			link: function(scope){
-				console.log('productMenu directive');
+				console.log('navbar-dropdown directive');
 			}
 		};
 	});

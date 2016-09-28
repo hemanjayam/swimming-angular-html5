@@ -1,49 +1,49 @@
 @media(max-width: 480px){
-	.navbar{width: 90%;  }
-	.navbar-default .navbar-header{float: left; width: 100%; border: none; }
-	
-	
-	
-	.search-box{width: 10%;}
-	.sb-search-input{width: 83%; display: inline-block; position: relative; }
+	.lang_list{ display: inline-block; width: 100px; }
+
+	.top-right{ display: inline-block; width: 70px; float: right;}
+	.top-right a{text-align: right; margin: 15px 0px;display: block; font-size: 16px;color: #fff; font-weight: 600;
+  text-transform: uppercase;text-decoration: none;}
+
+  .navbar-default{background-color: #fff;display: inline-block;border: 0; margin-top: 1em;}
+  .navbar-default .navbar-nav li a{text-transform: uppercase; color: #999; padding-top: 21px;}
+  h1.navbar-brand{width: 150px; line-height: 22px;
+  text-transform: capitalize; font-family: 'Corben-Regular'; font-size: 2.5em;}
+
+  #home{padding-bottom: 0px;  }
+
+  .banner-grid1{text-align: center; margin-top: 50px; }
+  .banner-grid1 h1{font-size: 25px;}
+  .banner-grid1 a{color: #000; background-color: transparent; text-transform: uppercase; font-size: 13px;
+  	border-radius: 0; border: 2px solid #000; font-weight: 700; padding: 10px 30px 10px 30px; margin-top: 20px;}
+  	.banner-grid2{ margin-top: 20px; display: inline-block;}
+  	.banner-grid2 img{width: 250px; margin-left: 20px;}
+
+  	.featuredProducts{margin-bottom: 10px; font-size: 18px;}
+  .gallery-grids{display: block; width: 100%; }
+  .col-sm-3{float: left; width: 50%; display: block;}
+
+  .galy-info p{font-size: 12px; display: inline-block;}
+
+  .subscribe1{display: inline-block;text-align: center;}
+  .subscribe1 h1{display: inline-block; text-align: center;}
+
+  .subscribe2{display: inline-block;}
+  .subscribe2 form input.email-field{width: 200px;}
+  .subscribe2 form input.submit-field{width: 100px;}
+
+  /* login form */
+#login{display: inline-block;}
+#login .col-sm-6{padding: 0;}
+#login .creat-new-acount h2, .login-customer h2{ font-size: 15px; font-weight: 600; }
+#login .creat-new-acount p, .login-customer p{font-size: 13px;}
+
+/* account styles */
+
+        #account{padding: 0px 0px;}
+        #account .personal-info, .login-info{width: 100%;}
+        #account .personal-info .form-group, .login-info .form-group{ width: 50%; }
 
 
-	#home .col-md-6{float: left; width: 100%; display: inline-block; padding: 0; margin: 0;}
-	.home-top-left{top: -200px; position: relative; margin-bottom: 0px; padding-bottom: 0px;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-	.home-top-left a{padding: 10px 30px 10px 30px; }
-
-	.home-top-rights{top: -220px; width: 100%; position: relative; margin-top: 0px; padding-top: 0px;
-	 display: inline-block;}
-	.home-top-right img{width: 250px; margin-left: 50px; }
-
-	#home-bottom{top: -250px; width: 100%; position: relative;
-	 display: inline-block; left: 0; right: -20px; padding: 0; margin: 0;}
-
-	 #home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	
-	.gallery-grids .col-sm-3{width: 50%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom .col-sm-3 .galy-info p{font-size: 12px; top: -20px; position: relative;}
-
-	/* login style */
-
-	#login .creat-new-acount{ margin-bottom: 30px; }
-
-	/* #footer-formField css */
-	#footer-formField{top: -70px; display: block; overflow: hidden; position: relative;}
-	#footer-formField .col-sm-5{display: inline-block; position: relative; width: 100%; }
-	#footer-formField .col-sm-5 .left h1{text-align: center; position: relative; font-size: .9em;}
-	#footer-formField .col-sm-7{width: 100%; display: inline-block;}
-
-/* footer css */
-
-#footer{margin-top: -70px; margin-bottom: 50px; padding: 0; position: relative; overflow: hidden; display: inline-block;}
-
-#footer .col-sm-2{float: left; display:inline-block;position: relative; width: 100%; }
-	 #footer .col-sm-2 h2{ font-size: 0.9em; margin-bottom: 0.5em; text-transform: uppercase;}
-
- #footer .col-sm-4{float: left; display: inline-block; position: relative; width: 100%;}
 
 }

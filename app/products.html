@@ -1,0 +1,37 @@
+<section id="product-model">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2 class="title text-center">Our Products</h2>
+				<div class="col-sm-9 products-model-right" ng-repeat="item in AllProducts track by $index">
+					<div class="col-sm-3">
+						<a>
+							<div class="product-grid">
+							<div class="more-product"><span> </span></div>						
+							<div class="product-img b-link-stripe b-animate-go  thickbox">
+									<img src="images/{{item.img}}" class="img-responsive" alt="">
+								<div class="b-wrapper">
+									<h4 class="b-animate b-from-left  b-delay03">							
+									<button> + </button>
+									</h4>
+								</div>
+							</div>
+						</a>
+						<div class="product-info simpleCart_shelfItem">
+							<div class="product-info-cust prt_name">
+								<h4>Product #1</h4>								
+								<span class="item_price">$187.95</span>
+								<div class="ofr">
+								  <p class="pric1"><del>Rs 280</del></p>
+						          <p class="disc">[12% Off]</p>
+								</div>
+								<input type="text" class="item_quantity" value="1" />
+								<input type="button" class="item_add items" value="+">												
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

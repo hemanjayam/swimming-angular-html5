@@ -1,8 +1,50 @@
-<section id="account">
+<section id="account" ng-controller="accountCtrl">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				
+				<div class="account-info">
+					
+					<form>
+						<div class="personal-info">
+						<h2>Personal Information</h2>
+							<div class="form-group">
+								<label>first name *</label>
+								<input type="text" class="fName" alt="" />
+							</div>
+							<div class="form-group">
+								<label>last name *</label>
+								<input type="text" class="lName" alt="" />
+							</div>
+							<div class="form-group">
+								<label>Email address *</label>
+								<input type="email" class="email" required="" alt="" />
+							</div>
+						</div>
+						<div class="checkbox-info">
+							<div class="form-group">
+								<a class="news-letter">
+						 			<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up for Newsletter</label>
+					   			</a>
+							</div>
+						</div>
+						<div class="login-info">
+							<h2>login information</h2>
+							<div class="form-group">
+								<label>password *</label>
+								<input type="password" class="pas1">
+							</div>
+							<div class="form-group">
+								<label>confirm password *</label>
+								<input type="password" class="pas2">
+							</div>
+						</div>
+					</form>
+					<div class="register-btn">
+						<form>
+							<input type="submit" value="Submit">
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

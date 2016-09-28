@@ -1,28 +1,25 @@
 
-#header-top{background-color: #000; position: relative;}
-.lang_list{margin: 15px 0; width: 150px; float: left; }
+#header-top{background-color: #000; }
+.lang_list{margin: 15px 0; width:50%; display: inline-block; }
 .lang_list .dropdown{border: none;}
 
-.top-right{width: 50px; float: right;}
-.top-right a{text-align: right; margin: 15px 0px; display: block; font-size: 16px; color: #fff; font-weight: 600;
-text-transform: uppercase; text-decoration: none;}
+.top-right{ display: inline-block; width: 49%;}
+.top-right a{text-align: right; margin: 15px 0px;display: block; font-size: 16px;color: #fff; font-weight: 600;
+  text-transform: uppercase;text-decoration: none;}
 
-.navbar-default{background-color: #fff; border: none; margin-top: 30px;}
-.navbar-brand{ margin-top: 0px; margin-bottom: 0px;}
-.navbar-brand a{text-decoration: none; color: #000; font-size: 30px; font-family: "Times New Roman", Times, serif;}
-#products-name{}
+.navbar-default{background-color: #fff;width: 100%;border: none;margin-top: 1em;}
 
-.navbar{position: relative; width: 80%; float: left; min-height: 10px; margin-bottom: 0px;
-}
+
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav >
  .open > a:focus{background-color: #fff; color: #555;}
-.navbar-default .navbar-header{float: left; width: 35%; margin-top: 1em;} 
+.navbar-default .navbar-header{ margin-top: 1em; display: block;} 
 
 .navbar-default .navbar-nav li a{text-transform: uppercase; color: #999; padding-top: 21px;}
 
-h1.navbar-brand{text-transform: capitalize; font-family: 'Corben-Regular'; font-size: 2.5em;}
-h1.navbar-brand a{text-decoration: none; color: #000;}
-.navbar-brand{float: left;font-size: 36px; line-height: 22px;padding: 0;}
+h1.navbar-brand{margin: 0;padding: 0;width: 300px; line-height: 22px;
+  text-transform: capitalize; font-family: 'Corben-Regular'; font-size: 2.5em;}
+h1.navbar-brand a{text-decoration: none; color: #000; font-size: 30px; font-family: "Times New Roman", Times, serif;}
+
  .dropdown-menu{width: 600px;}
  .dropdown-menu ul{list-style: none; margin: 0px; padding: 10px;}
  .dropdown-menu ul li{margin: 5px 0px 5px 10px;}
@@ -32,33 +29,33 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
 
   /* home css */
 
-  #home{padding-bottom: 50px; overflow: hidden;}
+  #home{padding-bottom: 50px; }
 
-  .home-top-left{text-align: center; margin-top: 250px; float: left;}
-  .home-top-left a{color: #000; background-color: transparent; text-transform: uppercase; font-size: 13px;
+  .banner-grid1{text-align: center; margin-top: 250px; }
+  .banner-grid1 a{color: #000; background-color: transparent; text-transform: uppercase; font-size: 13px;
   	border-radius: 0; border: 2px solid #000; font-weight: 700; padding: 10px 50px 10px 50px;}
-  .home-top-left a:hover{background-color: #000; color: #fff; font-weight: 700; border: 2px solid #000; border-radius: 0;}
-  .home-top-right{ float: left; margin-top: 50px;}
+  .banner-grid1 a:hover{background-color: #000; color: #fff; font-weight: 700; border: 2px solid #000; border-radius: 0;}
+  .banner-grid2{ margin-top: 50px; display: inline-block;}
 /* home-bottom css */
 
-.home-bottom-heading{margin-bottom: 50px; font-size: 25px;}
-  .gallery-grids{display: block;position: relative;}
-  .col-sm-3{display: block; position: relative; padding-bottom: 30px; float: left;}
-  .gallery{ position: relative; display: block;}
-  .col-sm-3 img{border: 1px solid #eee;}
-  .col-sm-3 a{text-decoration: none; display: block;}
-  .col-sm-3 img:hover{ border: 1px solid #999;}
+.featuredProducts{margin-bottom: 50px; font-size: 25px;}
+  .gallery-grids{display: block; }
+  
+  .gallery{display: block;}
+  .gallery img{border: 1px solid #eee;}
+  .gallery a{text-decoration: none; }
+  .gallery img:hover{ border: 1px solid #999;}
   
   .quick {text-align: center; color: #000; font-size: 17px; height: 30px; opacity: 0; top: -30px; display: block;}
-  i.fa .fa-eye{top: 3px;color: #000;}
+  i.fa .fa-eye{top: 3px;}
 
-  .col-sm-3:hover .quick{background-color: #999;background-color: rgba(25, 23, 23, 0.4); color: #fff; display: block; height: 30px; 
-  	 position: relative; padding-top: 5px;  font-size: 17px; opacity: 1;}
+  .gallery-grid:hover .quick{background-color: #999;background: rgba(25, 23, 23, 0.4); color: #fff;  height: 30px; 
+  	  padding-top: 5px;  font-size: 17px; opacity: 1; position: relative;}
 
-  	 .galy-info{display: block;position: relative;}
-  	 .galy-info p{display: inline-block; font-size: 17px; font-weight: 600; margin-top: 5px;}
-  	 .galy-info h2{color: #ccc; font-size: 20px; display: block; right: 0; top: 15px; position: absolute;}
-  	 .galy-info .rating{left: 0; top: 35px; position: absolute; display: block; }
+  	 .galy-info{}
+  	 .galy-info p{display: inline-block; margin-top: 0; font-size: 15px; font-weight: 600;}
+  	 .galy-info h2{color: #ccc; font-size: 20px; margin-top: 0px; float: right;}
+  	 .galy-info .rating{ float: left;}
   	 .galy-info .rating i.fa-star-o{cursor: pointer;font-size: 10px;}
   	 .galy-info .rating i.fa-star-o:hover{cursor: pointer; background-color: yellow;}
 
@@ -66,23 +63,20 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
   	 /* header-formField css */
 
   	 #footer-formField{background-color: #eee; width: 100%; border-top: 1px solid #CCC0C0; border-bottom: 1px solid #CCC0C0;
-  	 	padding: 1em 0em 2em 0em; margin: 2em 0 2em 0; overflow: hidden;}
+  	 	padding: 1em 0em 2em 0em; margin: 2em 0 2em 0;}
 
-  	 	#footer-formField .col-sm-5{float: left;}
-  	 	#footer-formField .col-sm-5 .left h1{font-size: 1.5em; font-weight: 600; color: #000; text-align: center;}
-  	 	#footer-formField .col-sm-7{float: right;}
-  	 	#footer-formField .col-sm-7 .right{margin-top: 1em;}
-  	 	#footer-formField .col-sm-7 .right form input.email-field{width: 76%; padding: 7px 7px; float: left; }
-  	 	#footer-formField .col-sm-7 .right form input.submit-field{width: 20%;
-  	 	position: relative; background: transparent; border: 2px solid#000;
-  	 		color: #000; font-size: 15px; font-weight: 600; float: right; padding: 7px 7px;}
-  	 #footer-formField .col-sm-7 .right form input.submit-field:hover{background: #000; color: #fff; border: 2px solid#000;
-  	 	font-weight: 600; padding: 7px 7px;}
+  	 	.subscribe1 h1{font-size: 1.5em; font-weight: 600; color: #000; text-align: center;}
+  	 	.subscribe2{margin-top: 1em;}
+  	 	.subscribe2 form input.email-field{width: 450px; height: 40px; padding: 7px 7px;}
+  	 	.subscribe2 form input.submit-field{width: 150px;background: transparent; border: 0; border: 2px solid #000;
+  	 		color: #000; font-size: 15px; font-weight: 600; height: 40px;}
+  	 .subscribe2 form input.submit-field:hover{background: #000; color: #fff;border: 2px solid#000;
+  	 	font-weight: 600; height: 40px;}
 
       /* login style */
 
-      #login{display: block; position: relative; width: 100%; padding: 80px 0px; overflow: hidden;}
-      #login .container{padding-left: 0px; padding-right: 0px;}
+      #login{display: inline-block; width: 100%; padding: 80px 0px;}
+      #login .col-sm-6{padding: 0;}
       #login .creat-new-acount h2{ text-transform: uppercase; font-size: 18px; font-weight: 600; }
       #login .creat-new-acount p{color: #999;}
       #login .creat-new-acount a{margin-top: 20px; text-transform: uppercase; border-radius: 0px; border: 2px solid#000;
@@ -102,6 +96,50 @@ h1.navbar-brand a{text-decoration: none; color: #000;}
         text-transform: uppercase; font-weight: 500;margin-top: 10px;}
       #login .login-customer form span a:hover{border: 2px solid#000; background: #000; border-radius: 0; padding: 10px 15px;
         text-transform: uppercase; font-weight: 500; color: #fff;margin-top: 10px;}
+
+        /* account styles */
+
+        #account{padding: 90px 0px;}
+        #account .personal-info h2, .login-info h2{ font-size: 20px; font-weight: 600; display: inline-block; width: 100%; margin-bottom: 30px; }
+        #account .personal-info .form-group, .login-info .form-group{width: 50%; float: left;}
+        #account .personal-info .form-group input, .login-info .form-group input{ width: 90%; padding: 5px; }
+        #account .personal-info .form-group label, .login-info .form-group label{display: inline-block; float: left; width: 100%; font-size: 12px;
+        text-transform: uppercase; font-weight: normal; color: #999;}
+
+        #account .register-btn form input[type="submit"] {border: 2px solid #000;color: #000;font-size: 1.2em;padding: 0.6em 2em;
+  transition: 0.5s all;-webkit-transition: 0.5s all;-moz-transition: 0.5s all;-o-transition: 0.5s all;display: inline-block;
+  text-transform: uppercase;outline: none;  background-color: #fff;}
+
+#account .register-btn input[type="submit"]:hover {background:#000;color: #fff;}
+
+        #account .checkbox-info{width: 100%; display: inline-block; position: relative;}
+        #account .checkbox-info .news-letter{color: #555; font-weight: 600; font-size: 0.85em; margin-bottom: 1em;
+          display: block;text-transform: uppercase;transition: 0.5s all;-webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;-o-transition: 0.5s all; clear: both;}
+        #account .checkbox-info .news-letter .checkbox i{position: absolute; bottom: 5px; left: 0;display: block;width: 20px;
+          height: 20px;outline: none;border: 2px solid#394c53;}
+
+        #account .checkbox-info .news-letter .checkbox input + i:after{content: '';background:url("../images/tick1.png") no-repeat 1px 2px;
+      }
+
+      .checkbox {margin-bottom: 4px;padding-left: 27px;font-size: 1.1em;line-height: 27px;cursor: pointer;
+}
+.checkbox {float: left;position: relative;font-size: 0.85em;color:#555;}
+.checkbox:last-child {margin-bottom: 0;}
+
+      .news-letter {color: #555;font-weight:600;font-size: 0.85em;margin-bottom: 1em;display: block;text-transform: uppercase;
+  transition: 0.5s all;-webkit-transition: 0.5s all;-moz-transition: 0.5s all;-o-transition: 0.5s all;clear: both;}
+      .checkbox i {position: absolute;bottom: 5px;left: 0;display: block;width:20px;height:20px;outline: none;border: 2px solid #394c53;}
+.checkbox input + i:after {content: '';top: -1px;left: -1px;width: 15px;height: 15px;font: normal 12px/16px FontAwesome;
+text-align: center;
+}
+
+.checkbox input + i:after { position: absolute;opacity: 0;transition: opacity 0.1s;-o-transition: opacity 0.1s;
+  -ms-transition: opacity 0.1s;-moz-transition: opacity 0.1s;-webkit-transition: opacity 0.1s;}
+.checkbox input {position: absolute;left: -9999px;}
+.checkbox input:checked + i:after {opacity: 1;}
+.news-letter:hover {color:#00BFF0;text-decoration: none; cursor: pointer;}
+
 
   	 	/* footer css */
   	 	#footer{padding: 1em 0;}

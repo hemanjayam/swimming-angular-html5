@@ -1,91 +1,69 @@
-@media (max-width: 1080px){
-	.navbar{width: 80%; border: none;}
-	 
-	
-	.navbar-brand{ float: left;}
-	
-	.navbar-default .navbar-nav li a{height: 35px; padding-left: 10px; padding-right: 10px; }
-	.dropdown-menu{width: 400px; top: 50px; }
-	.dropdown-menu ul{list-style: none; padding: 0px;}
-	.dropdown-menu ul li{margin: 5px 5px 5px 5px;}
-	.dropdown-menu ul li a.list{font-size: 13px;}
-	.dropdown-menu ul li a.list1{font-size: 11px;}
+@media (min-width: 641px) and (max-width: 991px){
 
-	#home .col-md-6{float: left; width: 50%; display: block;}
-	.home-top-left{top: -100px; position: absolute;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
-	
-	.search-box{width: 20%;}
-	.sb-search{right: 35px;}
+	h1.navbar-brand{width: 200px; line-height: 22px;
+  text-transform: capitalize; font-family: 'Corben-Regular'; font-size: 2.5em;}
 
-	.sb-search-input{width: 100%; display: inline-block; position: relative; }
+	.col-md-6{display: block; float: left; width: 50%;}
+	.banner-grid1 h1{font-size: 25px; font-weight: 600;}
 
-	.galy-info{display: block;position: relative;}
-  	 .galy-info p{display: inline-block; font-size: 15px; font-weight: 600; margin-top: 5px;}
-  	 .galy-info h2{color: #ccc; font-size: 20px; display: block; right: 0; top: 15px; position: absolute;}
-  	 .galy-info .rating{left: 0; top: 35px; position: absolute; display: block; }
-  	 .galy-info .rating i.fa-star-o{cursor: pointer;font-size: 10px;}
-  	 .galy-info .rating i.fa-star-o:hover{cursor: pointer; background-color: yellow;}	
+	.featuredProducts{margin-bottom: 10px; font-size: 20px;}
 
-	#home-bottom{ width: 100%; position: relative;
-	 display: block; left: 0; right: -20px; padding: 0; margin: 0; bottom: 40px;}
-	 .gallery-grids .col-sm-3{width: 25%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
+	.gallery-grids{display: block; width: 100%; }
+  	.col-sm-3{float: left; width: 25%; display: block;}
 
-	#home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	#home-bottom .col-sm-3 .galy-info p{ top: -20px;font-size: 15px; position: relative;}
+  	.subscribe1{display: inline-block
+  		; width: 40%; float: left;}
+  .subscribe1 h1{display:block; text-align: center; font-size: 18px;}
 
-/* footer css */
-	#footer{ padding: 0; margin-bottom: 50px; position: relative; display: block;}
-#footer .col-sm-2{float: left; display: block;position: relative;  }
-	 #footer .col-sm-2 h2{ font-size: 0.9em; margin-bottom: 0.5em; text-transform: uppercase;}
-	#footer .col-sm-4{float: left; display: block; position: relative; margin-top: 10px; }
+  .subscribe2{display: inline-block; width: 60%;}
+  .subscribe2 form input.email-field{width: 70%;}
+  .subscribe2 form input.submit-field{width: 25%;}
 
+  #login .col-sm-6{ width: 100%; padding: 0;}
+  	/* footer css */
+  	 	#footer{ margin-top: 0; display: block; margin-bottom: 50px; }
+  	 	#footer .col-sm-2{width: 16%; float: left; }
+#footer .col-sm-2 h2{ font-size: 13px; text-transform: uppercase;}
+#footer .col-sm-2 ul{list-style: none; padding: 0;}
+#footer .col-sm-2 ul li a{color: #B7B4B4; text-decoration: none;}
+#footer .col-sm-2 ul li a:hover{color: #000;}
+
+
+#footer .col-sm-4 ul{list-style: none; display:block; }
+#footer .col-sm-4 ul li{float: left; display: block;}
+#footer .col-sm-4 ul li a{font-size: 1.5em; color: #000; margin-right: 0.8em; font-weight: 700;}
+#footer .col-sm-4 ul li a:hover{font-size: 1.5em; color: #B7B4B4; margin-right: 0.8em; font-weight: 700;}
+#footer .col-sm-4 p{color: #B7B4B4; line-height: 2em; font-size: 0.9em;}
+#footer .col-sm-4 p a{color: #B7B4B4; line-height: 2em; font-size: 1em;}
+
+/* account styles */
+
+        #account{padding: 50px 0px;}
 }
 
-@media(max-width: 991px){
-	body{overflow: scroll;}
-	.navbar{width: 90%;  }
-	.navbar-default .navbar-header{ width: 26%;  }
-	h1.navbar-brand{font-size: 2em; }
-	
-	.navbar-default .navbar-nav li a{height: 35px; padding-left: 9px; padding-right: 9px;}
+@media (min-width: 992px ) and (max-width: 1080px){
+	h1.navbar-brand{ line-height: 22px;
+  text-transform: capitalize; font-family: 'Corben-Regular'; }
+  h1.navbar-brand a{font-size: 30px;}
 
+  .subscribe1{display: inline-block
+  		; width: 40%; float: left;}
+  .subscribe1 h1{display:block; text-align: center; font-size: 18px;}
 
- 		.dropdown-menu{border: none; width: 400px; left: -70px; }
- 		.dropdown-menu ul{padding: 0; margin: 0;}
- 		.dropdown-menu ul li{margin: 0; padding-top: 5px; padding-bottom: 5px;}
- 		.dropdown-menu ul li a.list{font-size: 13px;}
-		.dropdown-menu ul li a.list1{font-size: 12px;}
+  .subscribe2{display: inline-block; width: 60%;}
+  .subscribe2 form input.email-field{width: 70%;}
+  .subscribe2 form input.submit-field{width: 25%;}
+  #footer .col-sm-2 h2{ font-size: 13px; text-transform: uppercase;}
 
-	.search-box{width: 10%; position: relative; display: inline-block;}
-	.sb-search-input{width: 0%; display:block; position: absolute;}
+  /* login form */
+  #login{display: inline-block; }
+  #login .col-sm-6{padding: 0;}
+#login .creat-new-acount h2{ font-size: 17px; font-weight: 600; }
+#login .creat-new-acount p{font-size: 14px;}
+#login .login-customer h2{ font-size: 17px; font-weight: 600;}
+#login .login-customer p{font-size: 14px;}
 
-	#home .col-md-6{float: left; width: 50%; display: block;}
-	.home-top-left{top: -100px; position: absolute;}
-	.home-top-left h1{font-size: 20px; font-weight: 600;}
+/* account styles */
 
-
-	#home-bottom{ width: 100%;  position: relative;
-	 display: block; left: 0; right: -20px; padding: 0; margin: 0; bottom: 40px;}
-	 .gallery-grids .col-sm-3{width: 25%;padding: 5px 5px 5px 5px; margin: 0px; left: 0;
-	padding-bottom: 40px; float: left; position: relative; display: block;}
-
-	#home-bottom h1{font-weight: 500; margin-bottom: 30px; font-size: 20px;}
-	#home-bottom .col-sm-3 .galy-info p{ top: -20px;font-size: 12px; position: relative;}
-
-	#footer-formField{top: -50px; display: block; position: relative;}
-	#footer-formField .col-sm-5{display:block; position: relative; width: 40%; float: left; }
-	#footer-formField .col-sm-5 .left h1{text-align: center; position: relative; font-size: 1.2em; margin-left: -15px;}
-	#footer-formField .col-sm-7{width: 60%; display:block; position: relative; float: left;}
-	#footer-formField .col-sm-7 .right .email-field{width: 80%; float: left; display: block; position: relative;
-	 margin-left: -15px;}
-	 #footer-formField .col-sm-7 .right .submit-field{width: 20%; float: right; display: block;position: relative; right: 0;}
-
-	 /* footer css */
-	 #footer{margin-top: -50px; margin-bottom: 50px; padding: 0; position: relative; display: block;}
-#footer .col-sm-2{float: left; display: block;position: relative; width: 15%; }
-	 #footer .col-sm-2 h2{ font-size: 0.9em; margin-bottom: 0.5em; text-transform: uppercase;}
-
- #footer .col-sm-4{float: left; display: block; position: relative; width: 40%;}
+        #account{padding: 50px 0px;}
 }
